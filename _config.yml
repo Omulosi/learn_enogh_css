@@ -1,1 +1,9 @@
 name: My Jekyll Website
+
+
+baseurl: "/learn_enough_css" # the subpath of this site, e.g. /blog
+# url: "" # the base hostname & protocol for this site
+
+# Google analytics
+# google_analytics: UA-136524653-1
+
