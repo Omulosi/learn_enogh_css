@@ -52,6 +52,7 @@ html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
 }
+
 h1 {
   font-size: 7vw;
   margin-top: 0;
@@ -79,7 +80,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: helvetica, arial, sans;
+  font-family: 'Open Sans', helvetica, arial, sans;
 }
 
 h2 ~ p {
@@ -88,6 +89,11 @@ h2 ~ p {
   margin: 1em auto 0;
   max-width: 70%;
   text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
 }
 
 .content-container {
@@ -213,11 +219,6 @@ h2 ~ p {
   color: #557c83;
 }
 
-.hero-content .social-link:hover {
-  background-color: #000;
-  color: #fff;
-}
-
 
 .half-hero {
   background-position: center center;
@@ -250,6 +251,12 @@ h2 ~ p {
   vertical-align: middle;
   width: 2.5em;
 }
+
+.social-link:hover {
+  background-color: #000;
+  color: #fff;
+}
+
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em;
@@ -288,11 +295,6 @@ h2 ~ p {
 
 .bio-copy {
   font-size: 0.75em;
-}
-
-.bio-box .social-link:hover {
-  background-color: #f00;
-  color: #fff;
 }
 
 
@@ -352,7 +354,6 @@ h2 ~ p {
 .home-callout {
   display: flex;
   align-items: center;
-  flex-direction: column;
   background-color: #000;
   color: #fff;
   padding: 7vh 0;
@@ -366,8 +367,7 @@ h2 ~ p {
 }
 
 .callout-copy {
-  flex: 0 0 50%;
-  max-width: 600px;
+  flex: 0 0 45em;
   padding: 0 3vw;
   font-size: 0.8rem;
 }
@@ -380,6 +380,8 @@ h2 ~ p {
   width: 75%;
   margin: auto;
 }
+
+
 /*COLUMN STYLES*/
 
 .col-three {
