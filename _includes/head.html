@@ -17,5 +17,12 @@
     <link rel="stylesheet"
         href={{"/fonts/font-awesome-4.7.0/css/font-awesome.css" | relative_url }}>
     <link rel="stylesheet" type="text/css" href={{"/css/main.css" | relative_url }}>
-    <script async src="https://just-comments.com/w.js"></script>
+
+  <script src={{"/js/gallery.js" | relative_url}}></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      activateGallery();
+    });
+  </script>
+  <script async src="https://just-comments.com/w.js"></script>
 </head>
